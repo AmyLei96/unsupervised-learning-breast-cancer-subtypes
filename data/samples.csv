@@ -1,0 +1,78 @@
+TCGA_ID,Vital_Status,PAM50_Subtype,ER_Status,PR_Status,HER2_Status
+A2.A0CM,Deceased,Basal-like,Negative,Negative,Negative
+A2.A0D2,Living,Basal-like,Negative,Negative,Negative
+A2.A0EQ,Living,HER2-enriched,Negative,Negative,Positive
+A2.A0EV,Living,Luminal A,Positive,Positive,Negative
+A2.A0EX,Living,Luminal A,Positive,Positive,Negative
+A2.A0EY,Living,Luminal B,Positive,Negative,Positive
+A2.A0SW,Deceased,Luminal B,Positive,Negative,Negative
+A2.A0SX,Living,Basal-like,Negative,Negative,Negative
+A2.A0T3,Living,Luminal B,Positive,Positive,Negative
+A2.A0T6,Living,Luminal A,Positive,Positive,Negative
+A2.A0YC,Living,Luminal A,Positive,Positive,Negative
+A2.A0YD,Living,Luminal A,Positive,Positive,Negative
+A2.A0YF,Living,Luminal A,Positive,Negative,Negative
+A2.A0YG,Living,Luminal B,Positive,Positive,Positive
+A2.A0YM,Living,Basal-like,Negative,Negative,Negative
+A7.A0CE,Living,Basal-like,Negative,Negative,Negative
+A7.A0CJ,Living,Luminal B,Positive,Positive,Negative
+A7.A13F,Living,Luminal B,Positive,Positive,Negative
+A8.A06N,Living,Luminal B,Positive,Negative,Negative
+A8.A06Z,Living,Luminal B,Positive,Positive,Negative
+A8.A076,Living,HER2-enriched,Positive,Positive,Positive
+A8.A079,Living,Luminal B,Positive,Positive,Negative
+A8.A08Z,Living,Luminal A,Positive,Positive,Negative
+A8.A09G,Living,HER2-enriched,Positive,Negative,Positive
+AN.A04A,Living,Luminal A,Positive,Positive,Negative
+AN.A0AJ,Living,Luminal B,Positive,Positive,Positive
+AN.A0AL,Living,Basal-like,Negative,Negative,Negative
+AN.A0AM,Living,Luminal B,Positive,Negative,Negative
+AN.A0FK,Living,Luminal B,Positive,Positive,Negative
+AN.A0FL,Living,Basal-like,Negative,Negative,Negative
+AO.A03O,Deceased,Luminal B,Positive,Positive,Negative
+AO.A0J6,Living,Basal-like,Negative,Negative,Negative
+AO.A0J9,Living,Luminal A,Positive,Positive,Negative
+AO.A0JC,Living,Luminal B,Positive,Positive,Negative
+AO.A0JE,Living,HER2-enriched,Negative,Negative,Positive
+AO.A0JJ,Living,Luminal A,Positive,Positive,Negative
+AO.A0JL,Living,Basal-like,Negative,Negative,Negative
+AO.A0JM,Living,Luminal B,Positive,Positive,Positive
+AO.A126,Living,Luminal A,Positive,Positive,Negative
+AO.A12B,Living,Luminal B,Positive,Positive,Negative
+AO.A12D,Living,HER2-enriched,Negative,Negative,Positive
+AO.A12E,Living,Luminal A,Positive,Positive,Negative
+AO.A12F,Living,Basal-like,Negative,Negative,Negative
+AR.A0TR,Deceased,Luminal A,Positive,Positive,Negative
+AR.A0TT,Living,Luminal B,Positive,Negative,Negative
+AR.A0TV,Living,Luminal B,Positive,Positive,Negative
+AR.A0TX,Living,HER2-enriched,Positive,Positive,Positive
+AR.A0U4,Living,Basal-like,Negative,Negative,Negative
+AR.A1AP,Living,Luminal A,Positive,Positive,Negative
+AR.A1AS,Living,Luminal A,Positive,Positive,Negative
+AR.A1AV,Living,Luminal B,Positive,Positive,Negative
+AR.A1AW,Living,Luminal A,Positive,Positive,Negative
+BH.A0AV,Living,Basal-like,Negative,Negative,Negative
+BH.A0BV,Living,Luminal A,Positive,Positive,Negative
+BH.A0C1,Living,Luminal A,Positive,Positive,Negative
+BH.A0C7,Living,Luminal B,Positive,Negative,Positive
+BH.A0DD,Living,Luminal B,Positive,Positive,Positive
+BH.A0DG,Living,Luminal A,Positive,Negative,Negative
+BH.A0E1,Living,Luminal A,Positive,Positive,Negative
+BH.A0E9,Living,Luminal A,Positive,Positive,Negative
+BH.A18N,Deceased,Luminal A,Positive,Positive,Negative
+BH.A18Q,Deceased,Basal-like,Negative,Negative,Negative
+BH.A18U,Deceased,Luminal B,Positive,Positive,Positive
+C8.A12L,Living,HER2-enriched,Negative,Negative,Positive
+C8.A12T,Living,HER2-enriched,Positive,Positive,Positive
+C8.A12U,Living,Luminal B,Positive,Positive,Negative
+C8.A12V,Living,Basal-like,Negative,Negative,Negative
+C8.A12Z,Living,HER2-enriched,Negative,Negative,Positive
+C8.A130,Living,HER2-enriched,Positive,Positive,Equivocal
+C8.A131,Living,Basal-like,Negative,Negative,Negative
+C8.A134,Living,Basal-like,Negative,Negative,Negative
+C8.A135,Living,HER2-enriched,Negative,Negative,Positive
+C8.A138,Living,HER2-enriched,Positive,Negative,Positive
+D8.A142,Living,Basal-like,Negative,Negative,Negative
+E2.A154,Living,Luminal A,Positive,Positive,Negative
+E2.A158,Living,Basal-like,Negative,Negative,Negative
+E2.A15A,Living,Luminal B,Positive,Positive,Negative
