@@ -9,7 +9,7 @@ All data can be found in a study conducted by Mertins, et al. (2016) [here](http
 ## Code
 All code is written in R. Special acknowledgement to [MOFA](https://github.com/bioFAM/MOFA) for its multi-omics factor analysis pipeline. 
 
-## Unsupervised Algorithms
+## Algorithms
 - Hierarchical Clustering
 - Multi-Omics Factor Analysis (MOFA)
 
