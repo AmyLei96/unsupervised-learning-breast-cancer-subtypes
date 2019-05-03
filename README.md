@@ -7,7 +7,7 @@ Breast cancer is the most common type of cancer in women regardless of age, ethn
 Raw -omics data and clinical data for the breast cancer patients can be found in a study conducted by [Mertins, et al. (2016)](https://www.ncbi.nlm.nih.gov/pubmed/27251275). The cleaned transcriptomic data is stored in **rna.csv** and cleaned proteomic data is stored in **protein.csv**.
 
 ## Clinical Data
-Clinical data for each patient's vital status, ER, PR, and HER2 status are stored in **samples.csv**. Identifiers (TCGA_ID) have been stripped of their Cancer Genome Atlas (TCGA) prefix for conveinence.
+Data for each patient's vital status, PAM50 breast cancer subtype, ER, PR, and HER2 status are stored in **samples.csv**. Identifiers (TCGA_ID) have been stripped of their Cancer Genome Atlas (TCGA) prefix for conveinence.
 
 ## Code
 All code is written in R. Special acknowledgement to [MOFA](https://github.com/bioFAM/MOFA) for its multi-omics factor analysis pipeline. 
