@@ -1,5 +1,10 @@
-################################## NORMALIZATION FUNCTIONS ######################################
 #################################################################################################
+# normalization functions for transcriptomic and proteomic data
+# mydata is a data frame in the format of rna.csv or protein.csv
+#################################################################################################
+library(impute)
+library(quantable)
+
 # rna
 getLog2Scaled <- function(mydata){
   mydata_log2 <- log2(mydata + 0.5) # log2 transform
