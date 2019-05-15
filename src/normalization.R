@@ -1,6 +1,5 @@
 #################################################################################################
-# normalization functions for transcriptomic and proteomic data
-
+# normalization functions
 #################################################################################################
 library(impute)
 library(quantable)

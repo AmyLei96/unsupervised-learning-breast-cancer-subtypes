@@ -1,5 +1,5 @@
 #################################################################################################
-# heatmaps of hierarchical clustering results
+# heatmap of hierarchical clustering 
 #################################################################################################
 plotHeatmap <- function(filename, mydata, plot_title, row_labels, col_labels, annotations, 
                         hclust_met, k){
