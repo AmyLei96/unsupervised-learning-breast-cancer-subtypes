@@ -1,32 +1,29 @@
-################################## QUANTIFY HIERARHICAL CLUSTERING  ##############################
-library(readxl)
-library(dplyr)
-library(xlsx)
-##################################################################################################
-clustering_progress <- read_xlsx('clustering_progress.xlsx', sheet = 'Dominant', col_names = TRUE)
+###########################################################################################################
+# quantify homogeneity of hierarchical clustering clusters
+###########################################################################################################
+library("readxl")
+library("dplyr")
+library("xlsx")
+###########################################################################################################
+## import clustering results
+clustering_res <- read_xlsx("clustering_results.xlsx", col_names = TRUE)
+
+## store tables in list 
 res_list <- list()
 
-for (i in 3:5){
+## get frequency tables for each column compared to clinical_pam50
+for (i in 3:length(colnames(clustering_res))){
   
-  name <- names(clustering_progress[,i])
+  ### store column name
+  name <- names(clustering_res[,i])
   
-  # create proportion table
-  prop <- clustering_progress %>%
+  ### create proportion table
+  prop_table <- clustering_res %>%
     select(Clinical_PAM50, name) %>%
     table(.) %>%
-    prop.table(., margin = 2)
+    prop.table(., margin = 2)*100
   
-  prop_diag <- t(diag(prop))
-  
-  res_list[[i]] <- prop_diag
+  ### write to file
+  write.xlsx(prop_table, file = "clustering_results.xlsx", row.names = FALSE,
+             sheetName = name, append = TRUE)
 }
-res_diag <- do.call(rbind, res_list)
-res_diag <- data.frame(res_diag, row.names = colnames(clustering_progress[3:5]))
-write.csv(res_diag, 'clustering_proportions.csv')
-
-# test example
-prop.table(table(clustering_progress$Clinical_PAM50, clustering_progress$RNA_PAM50_AddN47), margin = 2)
-clustering_progress %>%
-  select(Clinical_PAM50, RNA_Protein_PAM50) %>%
-  table(.) %>%
-  prop.table(., margin = 2)

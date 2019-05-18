@@ -1,6 +1,11 @@
-#################################################################################################
-# heatmap of hierarchical clustering 
-#################################################################################################
+##################################################################################################################
+# heatmap function
+##################################################################################################################
+library("pheatmap")
+library("gplots")
+
+# mydata is a data frame in the format of rna.csv or protein.csv
+
 plotHeatmap <- function(filename, mydata, plot_title, row_labels, col_labels, annotations, 
                         hclust_met, k){
   jpeg(paste(filename, ".jpg", sep = ""), width = 1800, height = 1200)
