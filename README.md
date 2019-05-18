@@ -30,7 +30,7 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 ## Analysis
 - hierarchicalclustering_analysis.R: hierarchical clustering analysis of transcriptomic and proteomic data
 - hierarchicalclustering_quantify.R: quantitative analysis of heterogeneity in clusters produced by hierarchicalclustering_analysis.R stored in *output/hierarchicalclustering_clusters.xlsx*; output is stored in clustering_results.xlsx
-- clustering_results.xlsx: manual mapping of cluster assignments in hierarchical_clusters.xlsx to PAM50 subtype names; includes columns for patient identifiers and original PAM50 subtype assignment from Mertins, et al. (2016).
+- clustering_results.xlsx: manual mapping of cluster assignments in hierarchical_clusters.xlsx to PAM50 subtype names; includes columns for patient identifiers and original PAM50 subtype assignment
 - mofa.R: MOFA of filtered transcriptomic and proteomic data
 - gsea.R: gene set enrichment analysis of top 47 genes in LF6 from MOFA
 
