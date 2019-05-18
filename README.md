@@ -1,6 +1,6 @@
 # Unsupervised Learning of Breast Cancer Subtypes
 
-## Motivation
+## Overview
 Breast cancer is the most common type of cancer in women regardless of age, ethnicity, and race. As a highly heterogeneous disease, breast cancer has four subtypes: Basal-like, HER2-enriched, Luminal A, and Luminal B. Each subtype requires different targeted treatments based on the expression (positive status) or lack of expression (negative status) of three biomarkers: estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor 2 (HER2). A panel of 50 genes known as the PAM50 signature is currently used to classify subtypes at the molecular level with transcriptomic data, however, studies have shown that this classifier is not perfect. In addition, transcriptomic data does not inform about the pivotal role of proteins in cell signaling pathways that promote cell proliferation and cell growth in breast cancer. This project uses an unsupervised learning approach to assess whether proteomic data adds additional information for subtype clustering using transcriptomic data of 17,607 genes and proteomic data of 7,853 proteins for 77 breast cancer patients.
 
 ## Raw Data
