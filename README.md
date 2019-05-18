@@ -8,7 +8,6 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 
 ## Directories
 ### **data**
-*All data has been cleaned*
 - rna.csv: global transcriptomic data
 - rna_filtered.csv: transcriptomic data filtered for genes present in at least 90% of the samples
 - rna_pam50.csv: ranscriptomic data for PAM50 genes
@@ -20,7 +19,6 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 - mofa_trained_model.RData: output of training MOFA model on filtered transcriptomic and proteomic data (see [MOFA](https://github.com/bioFAM/MOFA)) for a complete guide to training a model and downstream analysis
 - samples.csv: vital status, PAM50 breast cancer subtype, ER, PR, and HER2 marker status for each patient
 ### **src**
-*All code is written in R*
 - heatmap.R: function for plotting heatmap using the *pheatmap* package
 - hierarchicalclustering.R: functions for hierarchical clustering of transcriptomic and proteomic data
 - normalization.R: functions for row-median centering, log-transformation of transcriptomic data and imputation of missing values in proteomic data; followed by row-median centering
