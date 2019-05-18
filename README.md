@@ -16,7 +16,7 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 - protein.csv: global proteomic data
 - protein_filtered.csv: proteomic data filtered for proteins present in at least 90% of the samples
 - protein_pam50.csv: proteomic data for PAM50 proteins
-- mofa_trained_model.RData: output of training MOFA model on filtered transcriptomic and proteomic data (see [MOFA](https://github.com/bioFAM/MOFA)) for a complete guide to training a model and downstream analysis
+- mofa_trained_model.RData: output of trained MOFA model on filtered transcriptomic and proteomic data (see [MOFA](https://github.com/bioFAM/MOFA) for a complete guide to training a MOFA model)
 - samples.csv: vital status, PAM50 breast cancer subtype, ER, PR, and HER2 marker status for each patient
 ### **src**
 - heatmap.R: function for plotting heatmap using the *pheatmap* package
