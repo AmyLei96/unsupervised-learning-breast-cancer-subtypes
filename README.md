@@ -8,16 +8,16 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 
 ## Directories
 ### **data**
-*All data has been cleaned**
+*All data has been cleaned*
 - rna.csv: global transcriptomic data
 - rna_filtered.csv: transcriptomic data filtered for genes present in at least 90% of the samples
 - rna_pam50.csv: ranscriptomic data for PAM50 genes
 - rna_protein_pam50_norm.csv: normalized transcriptomic and proteomic data for PAM50 genes and proteins
-- rna_pam50_mofa_lf6_n47: transcriptomic data for the top 47 genes in LF6 from MOFA 
+- rna_pam50_mofa_lf6_n47.csv: transcriptomic data for the top 47 genes in LF6 from MOFA 
 - protein.csv: global proteomic data
 - protein_filtered.csv: proteomic data filtered for proteins present in at least 90% of the samples
 - protein_pam50.csv: proteomic data for PAM50 proteins
-- mofa_trained_model.RData: output of training MOFA model on filtered transcriptomic and proteomic data (see MOFA](https://github.com/bioFAM/MOFA)) for a complete guide to training a model and downstream analysis
+- mofa_trained_model.RData: output of training MOFA model on filtered transcriptomic and proteomic data (see [MOFA](https://github.com/bioFAM/MOFA)) for a complete guide to training a model and downstream analysis
 - samples.csv: vital status, PAM50 breast cancer subtype, ER, PR, and HER2 marker status for each patient
 ### **src**
 *All code is written in R*
@@ -25,7 +25,7 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 - hierarchicalclustering.R: functions for hierarchical clustering of transcriptomic and proteomic data
 - normalization.R: functions for log-transformation of transcriptomic data and imputation of missing values in proteomic data; followed by row-median centering
 ### **output**
---output files from analysis
+- output files from analysis
 
 ## Analysis
 - hierarchicalclustering_analysis.R: hierarchical clustering analysis of transcriptomic and proteomic data
