@@ -23,7 +23,7 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 *All code is written in R*
 - heatmap.R: function for plotting heatmap using the *pheatmap* package
 - hierarchicalclustering.R: functions for hierarchical clustering of transcriptomic and proteomic data
-- normalization.R: functions for log-transformation of transcriptomic data and imputation of missing values in proteomic data; followed by row-median centering
+- normalization.R: functions for row-median centering, log-transformation of transcriptomic data and imputation of missing values in proteomic data; followed by row-median centering
 ### **output**
 - output files from analysis
 
