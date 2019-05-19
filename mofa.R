@@ -43,11 +43,11 @@ jpeg("output/mofa_variance.jpg", width = 1200, height = 800)
 plotVarianceExplained(MOFAobject)
 dev.off()
 #############################################################################################################
-# extract features for each latent factor
+## extract features for each latent factor
 topfeatures_rna_mat <- getWeights(MOFAobject)$RNA
 topfeatures_protein_mat <- getWeights(MOFAobject)$Protein
 
-# write to file
+## write to file
 write.csv(abs(topfeatures_rna_mat), "output/mofa_rna_topfeatures.csv", quote = FALSE)
 write.csv(topfeatures_protein_mat, "output/mofa_protein_topfeatures.csv", quote = FALSE)
 #############################################################################################################
