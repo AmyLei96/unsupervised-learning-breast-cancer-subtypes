@@ -12,25 +12,25 @@ Raw -omics data and clinical data for the breast cancer patients can be found in
 - rna_filtered.csv: transcriptomic data filtered for genes present in at least 90% of the samples
 - rna_pam50.csv: ranscriptomic data for PAM50 genes
 - rna_protein_pam50_norm.csv: normalized transcriptomic and proteomic data for PAM50 genes and proteins
-- rna_pam50_mofa_lf6_n47.csv: transcriptomic data for the top 47 genes in LF6 from MOFA 
+- rna_pam50_mofa_lf6_n47.csv: transcriptomic data for the top 47 genes in MOFA LF6
 - protein.csv: global proteomic data
 - protein_filtered.csv: proteomic data filtered for proteins present in at least 90% of the samples
 - protein_pam50.csv: proteomic data for PAM50 proteins
 - mofa_trained_model.RData: output of trained MOFA model on filtered transcriptomic and proteomic data (see [MOFA](https://github.com/bioFAM/MOFA) for a complete guide to train a MOFA model)
-- samples.csv: vital status, PAM50 breast cancer subtype, ER, PR, and HER2 marker status for each patient
+- samples.csv: vital status, PAM50 subtype, ER, PR, and HER2 marker status for each patient
 ### **src**
-- heatmap.R: function for plotting heatmap using the *pheatmap* package
+- heatmap.R: function for plotting heatmaps using the *pheatmap* package
 - hierarchicalclustering.R: functions for hierarchical clustering of transcriptomic and proteomic data
-- normalization.R: functions for row-median centering, log-transformation of transcriptomic data and imputation of missing values in proteomic data; followed by row-median centering
+- normalization.R: functions for row-median centering, log-transformation of transcriptomic data and imputation of missing values in proteomic data
 ### **output**
 - output files from analysis
 
 ## Analysis
-- hierarchicalclustering_analysis.R: hierarchical clustering analysis of transcriptomic and proteomic data
-- hierarchicalclustering_quantify.R: quantitative analysis of heterogeneity in clusters produced by hierarchicalclustering_analysis.R stored in *output/hierarchicalclustering_clusters.xlsx*; output is stored in clustering_results.xlsx
+- hierarchicalclustering_analysis.R: hierarchical clustering of transcriptomic and proteomic data
+- hierarchicalclustering_quantify.R: quantitative analysis of heterogeneity in clusters produced by hierarchicalclustering_analysis.R that are stored in *output/hierarchicalclustering_clusters.xlsx*
 - clustering_results.xlsx: manual mapping of cluster assignments in hierarchical_clusters.xlsx to PAM50 subtype names; includes columns for patient identifiers and original PAM50 subtype assignment
 - mofa.R: MOFA of filtered transcriptomic and proteomic data
-- gsea.R: gene set enrichment analysis of top 47 genes in LF6 from MOFA
+- gsea.R: gene set enrichment analysis of top 47 genes in MOFA LF6
 
 ## Acknowledgements
 - Vogel Lab (New York University) for sponsoring this project
